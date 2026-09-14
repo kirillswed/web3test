@@ -8,9 +8,7 @@ version = "0.1.0"
 description = "Reconstruct Polymarket wallet history directly from Polygon RPC"
 requires-python = ">=3.12"
 dependencies = [
-  "eth-abi",
-  "eth-utils",
-  "httpx",
+  "polymarket-python-infrastructure @ git+https://github.com/perpetual-s/polymarket-python-infrastructure.git@82f8a748fd52b4ad8343d7707f75e782b52395d8",
   "psycopg[binary]",
   "python-dotenv",
   "sqlalchemy",
